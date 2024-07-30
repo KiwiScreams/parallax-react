@@ -1,0 +1,43 @@
+.app
+{
+    overflow: hidden;
+}
+body
+{
+  width: 100%;
+  overflow: hidden;
+}
+.animation .animation_layer
+{
+  aspect-ratio: 0.5;
+  width: 100%;
+}
+.animation
+{
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  overflow: hidden;
+  background-color: #100F14;
+}
+.animation_layer
+{
+  background-position: bottom center;
+  background-size: 100% 100%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.parallax
+{
+  position: fixed;
+  width: 100%;
+  height: 1080px;
+}
+.parallax img
+{
+  width: 100%;
+  height: auto;
+}
