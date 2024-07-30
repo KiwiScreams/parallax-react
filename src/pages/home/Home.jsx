@@ -1,9 +1,9 @@
-import { Parallax } from "@react-spring/parallax"
+import ParallaxComponent from "../../components/parallax/Parallax_component"
 
-const Home = () => {
+function Home() {
     return (
         <>
-            <Parallax />
+            <ParallaxComponent />
         </>
     )
 }

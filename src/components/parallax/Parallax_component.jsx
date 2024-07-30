@@ -1,11 +1,11 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import './App.css'
-import background from "./assets/images/montain1.png"
-import sun from "./assets/images/montain2.png"
-import mountain from "./assets/images/montain3.png"
-import ground from "./assets/images/montain4.png"
+import background from "../../assets/images/montain1.png"
+import sun from "../../assets/images/montain2.png"
+import mountain from "../../assets/images/montain3.png"
+import ground from "../../assets/images/montain4.png"
 import "./Parallax.css"
-const Parallax = () => {
+function ParallaxComponent()
+{
     return (
         <>
             <div className="app">
@@ -37,4 +37,4 @@ const Parallax = () => {
         </>
     )
 }
-export default Parallax
+export default ParallaxComponent
