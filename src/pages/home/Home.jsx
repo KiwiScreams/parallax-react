@@ -1,4 +1,4 @@
-import ParallaxComponent from "../../components/parallax/Parallax_component"
+import ParallaxComponent from "../../components/parallax/Parallax"
 
 function Home() {
     return (
