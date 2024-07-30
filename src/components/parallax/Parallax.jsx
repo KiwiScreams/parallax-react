@@ -4,8 +4,8 @@ import sun from "../../assets/images/montain2.png"
 import mountain from "../../assets/images/montain3.png"
 import ground from "../../assets/images/montain4.png"
 import "./Parallax.css"
-function ParallaxComponent()
-{
+import TextBlock from '../text/TextBlock'
+function ParallaxComponent() {
     return (
         <>
             <div className="app">
@@ -31,6 +31,7 @@ function ParallaxComponent()
                         </div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={1} speed={0.7}>
+                        <TextBlock />
                     </ParallaxLayer>
                 </Parallax>
             </div>

@@ -19,7 +19,7 @@ body
   z-index: 10;
   width: 100%;
   overflow: hidden;
-  background-color: #100F14;
+  background-color:var(--dark-blue-clr);
 }
 .animation_layer
 {

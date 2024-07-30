@@ -12,3 +12,13 @@
   justify-content: space-between;
   align-items: center;
 }
+:root
+{
+  --white-clr: #fff;
+  --black-clr: #000;
+  --dark-blue-clr: #100F14;
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
