@@ -32,7 +32,7 @@
 .panel-container .panel h2
 {
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: var(--font-weight-700);
 }
 @keyframes panelAnim1
 {

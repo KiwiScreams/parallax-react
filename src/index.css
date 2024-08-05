@@ -18,6 +18,20 @@
   --white-clr: #fff;
   --black-clr: #000;
   --dark-blue-clr: #100F14;
+  --light-red-clr: #D53B07;
+  --medium-red-clr: #A41801;
+  --dark-red-clr: #430805;
+  --dark-clr: #100F14;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-26: 26px;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+
 }
 ::-webkit-scrollbar
 {
@@ -26,4 +40,8 @@
 body
 {
   color: var(--white-clr);
+}
+button, a
+{
+  cursor: pointer;
 }

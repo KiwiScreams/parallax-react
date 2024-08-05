@@ -1,0 +1,24 @@
+footer
+{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, var(--light-red-clr), var(--medium-red-clr), var(--dark-red-clr), var(--dark-clr));
+}
+footer .footer-container
+{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 222px;
+}
+footer .footer-container a
+{
+    color: var(--white-clr);
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-24);
+}
