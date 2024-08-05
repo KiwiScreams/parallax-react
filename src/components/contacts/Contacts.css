@@ -1,0 +1,38 @@
+.contacts
+{
+    width: 90%;
+    margin: auto;
+}
+.contacts p
+{
+    margin-bottom: 50px;
+}
+.contacts h2
+{
+    margin-bottom: 20px;
+}
+.contacts .top
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+.contacts .social-icons
+{
+    width: fit-content;
+    gap: 20px;
+    margin: auto;
+    font-size: 40px;
+}
+.contacts .social-icons i:hover
+{
+    color: #9d0000;
+    text-shadow: 0 0 20px #9d0000;
+}
+.contacts .social-icons .line
+{
+    width: 300px;
+    border-radius: 50%;
+    height: 1px;
+    background-color: #9d0000;
+}
