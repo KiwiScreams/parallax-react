@@ -8,13 +8,13 @@
     aspect-ratio: 1;
     background-size: 100%;
     margin-left: -100px;
-    background-color: aqua;
     display: flex;
+    animation: panelAnim1 linear infinite 7s;
     justify-content: center;
     align-items: center;
     background-image: url(../../assets/images/panel.svg);
 }
-.panel-container .panel p
+.panel-container .panel .panel-content
 {
     width: 50%;
     margin-bottom: 250px;
@@ -23,8 +23,44 @@
 {
     margin-right: -100px;
     transform: rotate(180deg);
+    animation: panelAnim2 linear infinite 7s;
 }
-.panel-container .rotate p
+.panel-container .rotate .panel-content
 {
     transform: rotate(180deg);
+}
+.panel-container .panel h2
+{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+@keyframes panelAnim1
+{
+    0%
+    {
+        margin-left: -100px;
+    }
+    50%
+    {
+        margin: 0;
+    }
+    100%
+    {
+        margin-left: -100px;
+    }
+}
+@keyframes panelAnim2
+{
+    0%
+    {
+        margin-right: -100px;
+    }   
+    50%
+    {
+        margin: 0;
+    }
+    100%
+    {
+        margin-right: -100px;
+    }
 }
