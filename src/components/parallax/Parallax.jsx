@@ -6,12 +6,13 @@ import ground from "../../assets/images/montain4.png";
 import "./Parallax.css";
 import TextBlock from "../text/TextBlock";
 import FAQ from "../faq/Faq";
+import Panel from "../panel/Panel";
 function ParallaxComponent() {
   return (
     <>
       <div className="app">
         <Parallax
-          pages={3}
+          pages={4}
           style={{ top: "0", left: "0" }}
           className="animation"
         >
@@ -40,6 +41,9 @@ function ParallaxComponent() {
           </ParallaxLayer>
           <ParallaxLayer offset={2} speed={0.5}>
             <FAQ />
+          </ParallaxLayer>
+          <ParallaxLayer offset={3} speed={0.8}>
+            <Panel />
           </ParallaxLayer>
         </Parallax>
       </div>

@@ -1,0 +1,30 @@
+.panel-container
+{
+    width: 100%;
+}
+.panel-container .panel
+{
+    width: 50%;
+    aspect-ratio: 1;
+    background-size: 100%;
+    margin-left: -100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/images/panel.svg);
+}
+.panel-container .panel p
+{
+    width: 50%;
+    margin-bottom: 250px;
+}
+.panel-container .rotate 
+{
+    margin-right: -100px;
+    transform: rotate(180deg);
+}
+.panel-container .rotate p
+{
+    transform: rotate(180deg);
+}
