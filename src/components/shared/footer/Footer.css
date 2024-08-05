@@ -19,6 +19,6 @@ footer .footer-container
 footer .footer-container a
 {
     color: var(--white-clr);
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-24);
 }
