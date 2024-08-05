@@ -1,0 +1,24 @@
+.faq-container
+{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+}
+.faq-container h2
+{
+    margin-bottom: 72px;
+    font-size: 30px;
+}
+.faq-container .faq-content
+{
+    gap: 84px;
+}
+.faq-container .faq h3
+{
+    margin-bottom: 10px;
+}
+.faq-container .faq h3,
+.faq-container .faq p
+{
+    font-size: 20px;
+}
