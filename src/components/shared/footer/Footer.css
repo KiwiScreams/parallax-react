@@ -7,7 +7,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top, #D53B07, #A41801, #430805, #100F14);
+    background: linear-gradient(to top, var(--light-red-clr), var(--medium-red-clr), var(--dark-red-clr), var(--dark-clr));
 }
 footer .footer-container
 {
