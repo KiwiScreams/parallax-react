@@ -11,6 +11,7 @@
 .faq-container .faq-content
 {
     gap: 60px;
+    flex-wrap: wrap;
 }
 .faq-container .faq h3
 {

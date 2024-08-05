@@ -1,8 +1,7 @@
 .text
 {
     color: var(--white-clr);
-    font-size: 20px;
-    margin: 0 auto;
+    font-size: 22px;
     width: 50%;
 }
 .main-container
@@ -12,14 +11,15 @@
 }
 .main-container .sun-img
 {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     animation: sunAnim 10s linear infinite;
 }
 .main-container .sun-img img
 {
     width: 100%;
+    border-radius: 50%;
 }
 @keyframes sunAnim
 {

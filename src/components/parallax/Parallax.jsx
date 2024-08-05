@@ -38,7 +38,7 @@ function ParallaxComponent() {
           <ParallaxLayer offset={1} speed={0.7}>
             <TextBlock />
           </ParallaxLayer>
-          <ParallaxLayer offset={2} speed={0.2}>
+          <ParallaxLayer offset={2} speed={0.5}>
             <FAQ />
           </ParallaxLayer>
         </Parallax>
