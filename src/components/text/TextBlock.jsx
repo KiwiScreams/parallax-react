@@ -3,8 +3,8 @@ import sun from "../../assets/images/sun.png"
 function TextBlock() {
     return (
         <>
-            <div class="main-container flex">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium reiciendis enim? Perspiciatis fugit modi unde nisi quisquam impedit, molestias quaerat adipisci amet sunt libero suscipit aperiam minus, commodi in!</p>
+            <div className="main-container flex">
+                <p className="text">Welcome to the heart-pounding world of horror gaming! We are thrilled to invite you to be among the first to test our latest spine-chilling creation. Dive into an immersive experience that will test your courage, challenge your wits, and leave you breathless with anticipation.</p>
                 <div className="sun-img">
                     <img src={sun} alt="" />
                 </div>
