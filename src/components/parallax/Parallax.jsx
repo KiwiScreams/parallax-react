@@ -7,12 +7,13 @@ import "./Parallax.css";
 import TextBlock from "../text/TextBlock";
 import FAQ from "../faq/Faq";
 import Panel from "../panel/Panel";
+import Contact from "../contacts/Contacts";
 function ParallaxComponent() {
   return (
     <>
       <div className="app">
         <Parallax
-          pages={4}
+          pages={5}
           style={{ top: "0", left: "0" }}
           className="animation"
         >
@@ -44,6 +45,9 @@ function ParallaxComponent() {
           </ParallaxLayer>
           <ParallaxLayer offset={3} speed={0.8}>
             <Panel />
+          </ParallaxLayer>
+          <ParallaxLayer offset={4} speed={0.8}>
+            <Contact />
           </ParallaxLayer>
         </Parallax>
       </div>
