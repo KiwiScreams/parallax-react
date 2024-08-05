@@ -46,3 +46,8 @@
 {
     font-size: var(--font-size-20);
 }
+.signup-container form input.confirm
+{
+    accent-color: #9d0000;
+    background-color: transparent;
+}
