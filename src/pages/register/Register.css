@@ -49,3 +49,13 @@
     accent-color: #9d0000;
     background-color: transparent;
 }
+.signup-container form input:focus
+{
+    outline: none;
+}
+.signup-container form input[type="number"]::-webkit-inner-spin-button,
+.signup-container form input[type="number"]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
