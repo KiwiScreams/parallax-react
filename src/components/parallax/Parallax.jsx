@@ -8,12 +8,13 @@ import TextBlock from "../text/TextBlock";
 import FAQ from "../faq/Faq";
 import Panel from "../panel/Panel";
 import Contact from "../contacts/Contacts";
+import Footer from "../shared/footer/Footer";
 function ParallaxComponent() {
   return (
     <>
       <div className="app">
         <Parallax
-          pages={5}
+          pages={6}
           style={{ top: "0", left: "0" }}
           className="animation"
         >
@@ -48,6 +49,9 @@ function ParallaxComponent() {
           </ParallaxLayer>
           <ParallaxLayer offset={4} speed={0.8}>
             <Contact />
+          </ParallaxLayer>
+          <ParallaxLayer offset={5} speed={0.3}>
+            <Footer />
           </ParallaxLayer>
         </Parallax>
       </div>
